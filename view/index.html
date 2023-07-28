@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="../assets/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style></style>
+  </head>
+  <body
+    style="
+      background-image: url(../assets/background.jpg);
+      background-repeat: no-repeat;
+      overflow: hidden;
+      background-size: cover;
+      width: 100%;
+      height: 100vh;
+    "
+  >
+    <div class="parrent-container">
+      <h2>Home Page</h2>
+
+      <div class="form-container">
+        <div class="form" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <!-- welcome -->
+            <h2>Welcome to Pharmacy Management System</h2>
+          </div>
+
+          <div class="container">
+            <button class="btn-primary" type="submit" name="submit" id="submit">
+              <a href="./login.php" style="color: white">Login</a>
+            </button>
+            <button class="btn-danger" type="submit" name="submit" id="submit">
+              <a href="./registration.php" style="color: white">Register</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
